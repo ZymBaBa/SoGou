@@ -1,0 +1,357 @@
+/*通用CSS样式*/
+
+.Ge-a {
+    display: block;
+    float: left;
+    color: #666666;
+    font-size: 10px;
+}
+
+.Email {
+    width: 85px;
+}
+
+.color-a1 {
+    color: red;
+}
+
+.color-a2 {
+    color: green;
+}
+
+.Ep {
+    float: left;
+    display: block;
+    color: #666666;
+}
+
+
+/*整个页面的背景颜色*/
+
+body {
+    background: #f1f3f5;
+    min-width: 1200px;
+}
+
+
+/*头部的大小*/
+
+nav {
+    background: white;
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px solid #e6e6e7;
+    position: relative;
+}
+
+
+/*nav容器里的东西*/
+
+#nav {
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#nav div {
+    float: left;
+}
+
+#nav span {
+    display: block;
+    color: #258BE3;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#left-nav,
+#right-nav {
+    margin-top: 5px;
+}
+
+#left-nav span,
+#right-nav span {
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#left-nav a,
+#right-nav a {
+    float: left;
+    text-decoration: none;
+    color: #666666;
+    font-size: 13px;
+}
+
+#right-nav {
+    position: absolute;
+    right: 0px;
+}
+
+
+/*选区最后一个A元素*/
+
+#right-nav a:nth-last-child(1) {
+    color: red;
+}
+
+
+/*article*/
+
+
+/*整个article宽度为1200px,并且居中*/
+
+article {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#wp {
+    margin-top: 10px;
+}
+
+#logo {
+    margin-right: 15px;
+}
+
+#wp div {
+    float: left;
+}
+
+#add {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#add a {
+    font-size: 12px;
+}
+
+#add li:nth-last-child(1) {
+    font-size: 12px;
+}
+
+
+/*start 天气部分CSS*/
+
+#wp1,
+#wp2,
+#wp3 {
+    padding-left: 10px;
+    width: 174px;
+    height: auto;
+    margin-top: -5px;
+}
+
+#wp4 {
+    padding-right: 15px;
+}
+
+#wp5 li {
+    float: left;
+    display: block;
+    font-size: 12px;
+    margin-left: 9px;
+}
+
+#wp1 p {
+    float: left;
+    display: block;
+}
+
+#wp5 {
+    width: 275px;
+    height: auto;
+}
+
+.wpa {
+    display: block;
+    width: 145px;
+    position: relative;
+    float: left;
+}
+
+
+/*太阳背景图*/
+
+.qing {
+    float: left;
+    display: block;
+    background: url("../imgs/qing.png");
+    width: 54px;
+    height: 54px;
+}
+
+
+/*小圆圈：今、明、后*/
+
+.news {
+    float: left;
+    display: block;
+    position: absolute;
+    background-color: #258BE3;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    color: white;
+    font-size: 4px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.Sp1 {
+    background: #ffc009;
+    padding: 2px;
+    color: white;
+}
+
+.wp-p {
+    margin-left: 8px;
+    margin-top: 3px;
+    color: #666666;
+}
+
+
+/*End 天气部分CSS*/
+
+article {}
+
+#art {}
+
+#seek {
+    width: 1200px;
+    height: 83px;
+    border: 1px solid #666666;
+    margin-top: 60px;
+}
+
+#set {
+    width: 1200px;
+    height: 83px;
+    border: 1px solid #c3ccd6;
+    margin-top: 65px;
+    background-color: white;
+    position: relative;
+}
+
+#listOne {
+    width: 1200px;
+    height: 36px;
+    border: 2px solid #77abe8;
+    background-color: #f1f3f5;
+}
+
+#listOne p,
+#listOne li {
+    float: left;
+    display: block;
+    line-height: 40px;
+}
+
+#listOne a,
+#listTwo a {
+    color: #666666;
+}
+
+#listOne p {
+    color: #f60;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.lo-div {
+    margin-left: 100px;
+}
+
+#listOne li {
+    margin-right: 35px;
+    font-size: 16px;
+}
+
+
+/*新闻头条*/
+
+#listTwo {
+    width: 1200px;
+    height: 36px;
+    border: 1px solid #c3ccd6;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.lt-diw {
+    margin-top: 10px;
+}
+
+#listTwo li {
+    float: left;
+    display: block;
+    margin-left: 15px;
+}
+
+#listTwo a {
+    font-size: 15px;
+}
+
+#listTwo ul {
+    margin-top: 6px;
+}
+
+.S-ico {
+    float: left;
+    display: block;
+    width: 23px;
+    height: 23px;
+}
+
+.ico1 {
+    background: url("/imgs/news.png");
+}
+
+.ico2 {
+    background: url("/imgs/TV.png");
+}
+
+.ico3 {
+    background: url("/imgs/mov.png");
+}
+
+.ico4 {
+    background: url("/imgs/music.png");
+}
+
+.ico5 {
+    background: url("/imgs/shilp.png");
+}
+
+.ico6 {
+    background: url("/imgs/xshou.png");
+}
+
+.ico7 {
+    background: url("/imgs/game.png");
+}
+
+.ico8 {
+    background: url("/imgs/shilp2.png");
+}
+
+.ico9 {
+    background: url("/imgs/tour.png");
+}
+
+.ico10 {
+    background: url("/imgs/xshou.png");
+}
+
+.ico11 {
+    background: url("/imgs/qinz.png");
+}
+
+.sp-ico {
+    margin-left: 6px;
+    color: #77abe8;
+}
